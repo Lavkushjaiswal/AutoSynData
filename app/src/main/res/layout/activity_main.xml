@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Offline Link"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter the Name"
+                android:padding="9dp"
+                android:textSize="12sp"
+                android:id="@+id/input_name"
+                android:layout_marginTop="5dp"
+                android:textColor="#605C5C"
+                android:textColorHint="#605C5C"
+                android:background="#7EB8B6B6"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter the Email"
+                android:padding="9dp"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:background="#7EB8B6B6"
+                android:id="@+id/input_email"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Job Role"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textColorHint="@color/purple_500"
+
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter the Job Role"
+                android:padding="9dp"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:background="#7EB8B6B6"
+                android:textColorHint="@color/black"
+                android:id="@+id/input_address"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textColorHint="@color/purple_500"
+
+                />
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="9dp"
+                android:id="@+id/spinner_data"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:background="#7EB8B6B6"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Profile Image"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:textSize="16sp"
+                android:layout_marginTop="-15dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:background="#7EB8B6B6"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/user_profile"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit "
+                android:layout_marginTop="20dp"
+                android:id="@+id/submit_data"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
